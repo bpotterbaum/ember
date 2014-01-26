@@ -1,0 +1,75 @@
+/* Put your CSS here */
+body {
+	background: rgb( 204, 204, 204 );
+	height: 1200px;
+}
+.ember-application {
+	
+}
+
+
+.thin-top {
+	display: block;
+	background-color: rgb( 255, 255, 255 );
+	height: 40px;
+}
+
+.thick-top {
+	display: block;
+	background-color: rgb( 51, 51, 51 );
+	height: 200px;
+}
+
+.content-area {
+	border-radius: 3px;
+	background-color: rgb( 255, 255, 255 );
+	box-shadow: 0px 0px 1px 0px rgba( 0, 0, 0, 0.3);
+	position: absolute;
+	left: 10%;
+	top: 205px;
+	width: 80%;
+	height: 2625px;
+	z-index: 6;
+}
+
+.button-itme {
+	display: block;
+	border-radius: 6px;
+	position: absolute;
+	top: 80px;
+	width: 90px;
+	height: 80px;
+	z-index: 5;
+	text-align: center;
+	padding-top: 16px;
+	font-size: 12px;
+	color: #fff;
+	text-decoration: none;
+}
+.button-itme.active {
+	background-color: rgb( 62, 62, 62 );
+}
+.button-itme:hover {
+	background-color: #4b4b4b; 
+}
+
+.button-itme-pic {
+	left: 138px;
+}
+.button-itme-jodge {
+	left: 279px;
+}
+.button-itme-tags {
+	left: 886px;
+}
+.button-itme-achievements {
+	left: 1028px;
+}
+
+
+.button-itme i {
+	display: inline-block;
+	margin: 0 15px 12px;
+	font-size: 40px;
+	color: #c9e200;
+}
